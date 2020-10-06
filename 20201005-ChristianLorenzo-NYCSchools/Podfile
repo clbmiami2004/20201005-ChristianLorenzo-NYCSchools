@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '20201005-ChristianLorenzo-NYCSchools' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 20201005-ChristianLorenzo-NYCSchools
+  pod 'AlamofireObjectMapper', '~> 5.2'
+  pod 'MBProgressHUD'
+
+  target '20201005-ChristianLorenzo-NYCSchoolsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '20201005-ChristianLorenzo-NYCSchoolsUITests' do
+    # Pods for testing
+  end
+
+end

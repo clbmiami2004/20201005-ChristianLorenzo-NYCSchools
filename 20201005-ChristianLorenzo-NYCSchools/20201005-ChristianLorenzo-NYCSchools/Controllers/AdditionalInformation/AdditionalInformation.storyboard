@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hot-At-uEm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Additional Information View Controller-->
+        <scene sceneID="IYO-Ff-4SZ">
+            <objects>
+                <viewController storyboardIdentifier="AdditionalInformation" id="hot-At-uEm" customClass="AdditionalInformationViewController" customModule="_0201005_ChristianLorenzo_NYCSchools" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ACc-b7-cVf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxD-j8-UN8">
+                                <rect key="frame" x="20" y="95" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Num of Test Takers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uv-Vb-EvX">
+                                <rect key="frame" x="20" y="89" width="146.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Math AVG Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBm-5g-fEa">
+                                <rect key="frame" x="20" y="118" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhN-BD-8ly">
+                                <rect key="frame" x="20" y="60" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writing AVG Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQo-iQ-cU3">
+                                <rect key="frame" x="20" y="176" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading AVG Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkF-Pp-YwZ">
+                                <rect key="frame" x="20" y="147" width="152.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hf3-Si-NL1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WkF-Pp-YwZ" firstAttribute="top" secondItem="rBm-5g-fEa" secondAttribute="bottom" constant="8" symbolic="YES" id="0W3-Bx-BEf"/>
+                            <constraint firstItem="9uv-Vb-EvX" firstAttribute="top" secondItem="HhN-BD-8ly" secondAttribute="bottom" constant="8" symbolic="YES" id="GBR-hf-ANu"/>
+                            <constraint firstItem="rBm-5g-fEa" firstAttribute="leading" secondItem="Hf3-Si-NL1" secondAttribute="leading" constant="20" id="bQN-wb-YBr"/>
+                            <constraint firstItem="nQo-iQ-cU3" firstAttribute="top" secondItem="WkF-Pp-YwZ" secondAttribute="bottom" constant="8" symbolic="YES" id="bgi-fq-Mdd"/>
+                            <constraint firstItem="HhN-BD-8ly" firstAttribute="top" secondItem="Hf3-Si-NL1" secondAttribute="top" constant="16" id="cCr-Vq-iSi"/>
+                            <constraint firstItem="9uv-Vb-EvX" firstAttribute="leading" secondItem="Hf3-Si-NL1" secondAttribute="leading" constant="20" id="cb2-qo-RNs"/>
+                            <constraint firstItem="WkF-Pp-YwZ" firstAttribute="leading" secondItem="Hf3-Si-NL1" secondAttribute="leading" constant="20" id="faG-ba-2yk"/>
+                            <constraint firstItem="rBm-5g-fEa" firstAttribute="top" secondItem="9uv-Vb-EvX" secondAttribute="bottom" constant="8" symbolic="YES" id="iqu-F4-vT6"/>
+                            <constraint firstItem="nQo-iQ-cU3" firstAttribute="leading" secondItem="Hf3-Si-NL1" secondAttribute="leading" constant="20" id="lSl-Nn-MiO"/>
+                            <constraint firstItem="HhN-BD-8ly" firstAttribute="leading" secondItem="Hf3-Si-NL1" secondAttribute="leading" constant="20" id="rXQ-6k-ZuD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="satMathScoreLabel" destination="rBm-5g-fEa" id="Xl7-l9-b8f"/>
+                        <outlet property="satReadingScoreLabel" destination="WkF-Pp-YwZ" id="v2w-1O-EQ9"/>
+                        <outlet property="satTestTakersCountLabel" destination="9uv-Vb-EvX" id="xLk-vc-dGO"/>
+                        <outlet property="satWritingScoreLabel" destination="nQo-iQ-cU3" id="Cyb-gu-xHW"/>
+                        <outlet property="schoolNameLabel" destination="HhN-BD-8ly" id="hsP-du-3Yj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Axb-zk-fpY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

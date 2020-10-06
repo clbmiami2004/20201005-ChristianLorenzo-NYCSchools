@@ -1,0 +1,6 @@
+framework module Pods_20201005_ChristianLorenzo_NYCSchools {
+  umbrella header "Pods-20201005-ChristianLorenzo-NYCSchools-umbrella.h"
+
+  export *
+  module * { export * }
+}
